@@ -17,7 +17,7 @@ ping_y2 = 1
 ping_speed = 1
 clock = pygame.time.Clock()
 
-# Set the desired FPS
+
 fps = 500
 
 kep = pygame.display.set_mode((KEPERNYO_HOSSZUAG, KEPERNYO_SZELESEG))
@@ -48,7 +48,7 @@ def pong():
 
     pygame.draw.ellipse(kep, (255, 255, 255), ping)
 
-    # Frissíti a labda pozícióját az aktuális sebességgel
+
     ping.x += Ping_x * ping_speed
     ping.y += ping_y * ping_speed
 
@@ -73,7 +73,7 @@ while fut:
             
     pygame.display.update()
     
-    # Limit the FPS by sleeping for the remainder of the frame time
+
     clock.tick(fps)
 
 pygame.quit()
