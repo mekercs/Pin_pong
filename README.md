@@ -26,7 +26,8 @@ python main.py      # vagy: python3 main.py
 (Ha más nyelv / fájlnév — módosítsd a parancsot a projektnek megfelelően.)
 
 🛠️ Hogyan működik / Mi van benne
-A projekt fő logikája a … (itt írd le, mit csinál a kód — pl. játék-logika, billentyűvezérlés, ütközés, pontszám, GUI, stb).
+A projekt fő logikája egy egyszerű Pong / Ping-Pong játék megvalósítása a Pygame könyvtár segítségével. A kód létrehozza a játék pályáját, a két játékos ütőit és a labdát, majd a fő ciklusban folyamatosan frissíti és kirajzolja ezeket. A játékosok billentyűzettel irányíthatják az ütőiket (W–S illetve fel–le nyilak).
+A labda folyamatosan mozog, visszapattan az ütőkről és a falakról, és pontgyűjtés helyett újra középre kerül, ha valamelyik oldalon túljut. A program ezen kívül ütközésvizsgálatot, egyszerű fizikai visszapattanást, valamint képernyő-frissítést és FPS-szabályozást is tartalmaz.
 
 A projekt struktúrája egyszerű — minden a fő mappában található.
 
